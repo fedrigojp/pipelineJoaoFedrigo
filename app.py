@@ -7,7 +7,7 @@ ALUNOS = ["Ana", "Bruno", "Carla", "Daniel"]
 
 @app.get("/")
 def inicio():
-    return jsonify(mensagem="Olá, Fatec! A pipeline está funcionando.")
+    return jsonify(mensagem="Olá, Fatec! A pipeline está funcionando com aprovação.")
 
 
 @app.get("/saude")
